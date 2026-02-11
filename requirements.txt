@@ -1,0 +1,21 @@
+# PRISM Data Processing Toolkit - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core data processing
+numpy>=1.20.0
+pandas>=1.3.0
+openpyxl>=3.0.0
+
+# Geospatial
+rasterio>=1.2.0
+geopandas>=0.10.0
+shapely>=1.8.0
+pyproj>=3.0.0
+fiona>=1.8.0
+
+# Visualization
+matplotlib>=3.4.0
+tqdm>=4.60.0
+
+# Optional but recommended
+# gdal>=3.0.0  # For advanced reprojection (install separately if needed)

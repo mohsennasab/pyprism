@@ -1,6 +1,6 @@
 # PRISM Data Processing Toolkit
 
-A comprehensive Python toolkit for downloading, processing, and visualizing PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate data. Developed for FFRD (Flood Frequency and Risk Determination) hydrological and water resources engineering applications.
+A Python toolkit for downloading, processing, and visualizing PRISM (Parameter-elevation Regressions on Independent Slopes Model) climate data. Developed for FFRD (Flood Frequency and Risk Determination) hydrological and water resources engineering applications.
 
 **Author:** HydroMohsen  
 **Date:** January 2025  
@@ -57,7 +57,7 @@ All data processed by this toolkit is reprojected to the FFRD standard coordinat
 ### WKT Definition
 
 ```
-PROJCS["USA_Contiguous_Albers_Equal_Area_Conic_FFRD",
+PROJCS["USA_Contiguous_Albers_Equal_Area_Conic",
     GEOGCS["GCS_North_American_1983",
         DATUM["D_North_American_1983",
             SPHEROID["GRS_1980",6378137.0,298.257222101]],
@@ -375,4 +375,4 @@ python 04_visualize.py \
 This toolkit is provided for educational and research purposes. Please ensure compliance with PRISM's terms of use when downloading and using PRISM data.
 
 **PRISM Data Citation:**
-> PRISM Climate Group, Oregon State University, https://prism.oregonstate.edu, data created [date], accessed [date].
+> PRISM Climate Group, Oregon State University, https://prism.oregonstate.edu.
